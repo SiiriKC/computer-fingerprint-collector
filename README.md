@@ -1,9 +1,6 @@
 # Computer Fingerprint Collector
 
-**Author:** Your Name  
-**Date:** YYYY-MM-DD  
-
-## Table of Contents
+## Table of contents
 1. [Project Overview](#project-overview)  
 2. [Features](#features)  
 3. [Prerequisites](#prerequisites)  
@@ -31,11 +28,11 @@ This Python script collects hardware and network information from a local comput
 Data is appended to a CSV file, allowing Midtown IT to maintain a simple record of machine fingerprints.
 
 ## Features
-- **Automatic Data Collection**: Gathers system info without user intervention.
-- **Network Checks**: Pings `8.8.8.8` to verify connectivity.
-- **Speed Test**: Uses `speedtest-cli` to measure bandwidth.
-- **Open Port Scan**: Scans ports `1-9000` and displays any that are open.
-- **Dummy Server**: Automatically starts a server on port `8080` to ensure at least one open port is detected.
+- **Automatic data collection**: Gathers system info without user intervention.
+- **Network checks**: Pings `8.8.8.8` to verify connectivity.
+- **Speed test**: Uses `speedtest-cli` to measure bandwidth.
+- **Open port scan**: Scans ports `1-9000` and displays any that are open.
+- **Dummy server**: Automatically starts a server on port `8080` to ensure at least one open port is detected.
 
 ## Prerequisites
 1. **Python 3.7+** (Python 3.9 recommended).
@@ -87,7 +84,7 @@ A CSV file named fingerprint_data.csv is created or appended to with each run.
 MacBook-Pro.local,Darwin,arm,2025-02-02 20:15:00,127.0.0.1;192.168.20.37,52:bb:cc:c1:28:fc;52:bb:cc:c1:28:fb;52:bb:cc:c1:28:db;52:bb:cc:c1:28:dc;36:f0:22:cd:df:c0;36:f0:22:cd:df:c4;36:f0:22:cd:df:c0;ea:eb:49:ef:4a:c5;be:e1:b8:45:6d:cd;96:f8:61:15:85:60;96:f8:61:15:85:60,Internet Up,102.47 Mbps Down / 14.84 Mbps Up / 21.8 ms Ping,5000;6463;7000;8080
 
 ```
-## Configuration Options
-* Port Scanning Range: Modify startPort and endPort in scanActivePorts if you want a different range.
-* Dummy Server: Adjust or remove the call to startDummyServer(8080) in main() if you do not need to ensure an open port.
-* Ping Settings: Tweak the command in measureBasicConnectivity() if you need a different host or additional flags.
+## Configuration options
+* Port scanning range: Modify startPort and endPort in scanActivePorts if you want a different range.
+* Dummy server: Adjust or remove the call to startDummyServer(8080) in main() if you do not need to ensure an open port.
+* Ping settings: Tweak the command in measureBasicConnectivity() if you need a different host or additional flags.
