@@ -8,9 +8,6 @@
 5. [Usage](#usage)  
 6. [Output](#output)  
 7. [Configuration Options](#configuration-options)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
-10. [Contact / Support](#contact--support)
 
 ---
 
@@ -64,7 +61,7 @@ The script will:
 
 1. Display system information in the terminal.
 2. Append a row of data into fingerprint_data.csv in the same directory.
-### Sample Output:
+### Sample output:
 
 ```
 Computer Name: MyComputer
