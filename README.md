@@ -1,17 +1,17 @@
 # Computer Fingerprint Collector
 
 ## Table of contents
-1. [Project Overview](#project-overview)  
+1. [Project overview](#project-overview)  
 2. [Features](#features)  
 3. [Prerequisites](#prerequisites)  
 4. [Installation](#installation)  
 5. [Usage](#usage)  
 6. [Output](#output)  
-7. [Configuration Options](#configuration-options)  
+7. [Configuration options](#configuration-options)  
 
 ---
 
-## Project Overview
+## Project overview
 This Python script collects hardware and network information from a local computer, such as:
 - Hostname
 - OS type
